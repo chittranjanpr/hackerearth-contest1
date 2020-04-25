@@ -1,0 +1,14 @@
+.listContainer{
+    display: flex;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+.text{
+    margin-right: 2%;
+}
+
+.textColor{
+    color: darkcyan;
+}

@@ -1,0 +1,29 @@
+.optionsContainer{
+    display: flow-root;
+    float: right;
+    margin-right: 2%;
+}
+
+.contain{
+    display: flex;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.arrowImg{
+    width: 24px;
+    margin: 1px 0px 0px 6px;
+}
+
+.autocomplete{
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contain{
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+}
